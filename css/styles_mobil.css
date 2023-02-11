@@ -1,0 +1,47 @@
+@media screen and (min-width:480px) {
+    .container {
+        max-width: 428px;
+        
+       
+    }
+  
+
+.header-main{
+    max-width: 100%;
+    /* max-width: 428px;    */
+
+  } 
+  .header-flex-flex{ 
+    position: relative;
+  }
+
+  .Section1-h {
+    text-transform: capitalize;
+    }
+
+    .section3-flex{
+      display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+}
+
+
+
+
+
+
+

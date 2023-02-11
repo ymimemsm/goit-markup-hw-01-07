@@ -1,0 +1,153 @@
+@media screen and (min-width : 1200px) {
+
+    .container{
+        max-width: 1158px;
+       
+      /* -------------------------------------------------------------------outline: 2px solid red;     */
+      }
+    
+    .header-main{
+        
+        max-width: 1440px;
+      
+        
+      } 
+      .header-links-flex {
+        padding-left: 76px;
+        
+      
+      } 
+      .header-flex-flex{  
+        padding-bottom: 28px;
+        max-height: 76px;
+      
+      
+      } 
+      .maintext{        
+        font-weight: 400;           
+        
+      }
+      
+     
+      .header-flex-contacts{
+        display: flex;
+        gap: 40px;   
+      
+      }  
+      .current::after{
+        bottom: -29px;
+       
+      }
+       
+       
+      .button-mobile{
+        display: none;
+      }
+      .mobile-menu{
+        display: none;
+      }
+
+/* ------------------------------------------------- */
+.Section1 {
+    
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg) ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    max-width: 1440px;
+    height: 600px;    
+    padding-top: 188px; 
+    padding-bottom: 188px; 
+  }
+
+      /* ------------------------------------------------------------ */
+      
+      .headerstext{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-transform:none; 
+        
+      }
+
+      .section-flex{
+        padding-bottom: 120px;
+        padding-top: 120px;
+        
+      }
+      .section2-flex{
+        justify-content: center;
+        gap: 24px;
+  }
+      .section2-logo-font{
+        display: flex;
+        margin-bottom: 8px;
+        background: #F4F4FD;
+        border-radius: 4px;
+        width: 264px;
+        height: 112px;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      
+      .section3-flex{
+        padding-bottom: 120px;
+        display:flex;
+      }
+      .section3-img-flex{
+        display: flex;
+        padding-top: 72px;
+        justify-content: space-between;
+        gap: 24px;    
+      }
+      .section3-img-calc{
+        width: calc((100% - 48px) / 3);
+      } 
+      .teambox{
+        width: calc((100% - 72px) / 4);
+      }
+      .section4-img-flex{
+        justify-content: space-between;
+      }
+      .customs-main{
+        padding-top: 120px;
+        padding-bottom: 120px;
+        
+        }
+        .customs-items{
+          width: calc((100% - 120px) / 6);
+        }
+        .customs-flex{
+          padding-left:0;
+          padding-right: 0;
+        }
+        .footerbg {
+         
+          padding-top:  100px;
+          padding-bottom: 100px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
