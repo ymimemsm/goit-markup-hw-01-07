@@ -19,7 +19,12 @@
       display: none;
     }
 
-
+    .footer-input-subscriber{
+      width: 396px;
+    }
+    /* .mobile-contacts-item-mobile{
+      font-size: 36px;
+    } */
 
 
 
@@ -35,7 +40,13 @@
 
 }
 
-
+@media screen and (min-width : 428px) {
+  .mobile-contacts-item-mobile{
+    font-size: 36px;
+    
+  }
+  
+ }
 
 
 

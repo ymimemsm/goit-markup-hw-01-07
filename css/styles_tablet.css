@@ -161,6 +161,14 @@
           width: calc((100% - 48px) / 3);
 
          }
+         .footer-subscriber-flex{
+          display: flex;
+           gap: 24px;    
+           
+         }
+         .footer-input-subscriber{
+          min-width: 264px;
+        }
         
 
 
