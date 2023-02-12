@@ -100,6 +100,8 @@ img{
   border-bottom: 1px solid #E7E9FC;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);  
   margin:auto;
+  max-width: 428px;
+  
 
 } 
 
@@ -273,8 +275,11 @@ img{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: flex-start;
+
 
 }
+
 .mobile-menu.is-open{
   opacity: 1;
   visibility: visible;
@@ -331,7 +336,7 @@ img{
 }
 .mobile-navigation{
   padding-top: 40px;
-  /* margin-bottom: 284px; */
+ 
   
 }
 .mobile-nav-item:is(:hover, :focus){
@@ -341,13 +346,21 @@ img{
  
 }
 .mobile-contacts-item-mobile{  
-font-style: normal;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height:1.11;
+  text-transform: capitalize;   
+  color: #4D5AE5;
+ 
+}
+.mobile-contacts-item-email{
+  font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;  
 color: #434455;
-transition: text-transform 1000ms cubic-bezier(0.4, 0, 0.2, 1), color 1000ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 .mobil-contacts-link:not(:last-child){
 margin-bottom: 40px;
@@ -355,19 +368,12 @@ margin-bottom: 40px;
 
 
 
-.mobile-contacts-item-mobile:is(:hover, :focus){
-    
-    font-style: normal;
-    font-weight: 600;
-    font-size: 36px;
-    line-height:1.11;
-    text-transform: capitalize;   
-    color: #4D5AE5;
-}
+
 .team-social-mobile{
   display: flex;
-  margin-top: 48px;   
-  gap: 56px;
+  margin-top: 48px; 
+  justify-content: space-between;  
+  /* gap: 56px;  maybe take out space between and put 56px on */
 }
 .team-social{
   display: flex;
@@ -574,13 +580,7 @@ margin-bottom: 40px;
   display: flex;
 
 }
-/* .mobil-container-flex .mobile-menu{
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 
-} */
 /* //////////////////////Footer ////////////////////////////////////////////////////////////// */
 /* 
 
