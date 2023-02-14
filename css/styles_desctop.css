@@ -138,8 +138,23 @@
          
           
         }
-       
-
+        .footersize{
+          flex-wrap: nowrap;
+          padding-left :15px;
+        }
+       .footer-text-last{
+        margin-bottom: initial;
+        width:264px;
+       }
+.footer-social-main{
+  margin-left: 120px;
+}
+.h4-footer{
+  margin-left: initial;
+}
+.footer-social{
+  margin-left: initial;
+}
 
 
 

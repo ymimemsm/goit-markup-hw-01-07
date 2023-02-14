@@ -168,18 +168,41 @@
            
          }
          .footer-input-subscriber{
-          min-width: 264px;
+          width: 264px;
         }
         
+.footersize{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+ 
+  padding-left: 108px;
 
+}
 
+.v{
+  margin-left: initial;
+  margin-right: initial;
+}
 
+.footer-social-main{
+  margin-left: 24px;
+}
+.footer-text-last{
+  margin-bottom: 72px;
 
+}
+.footer-subscribe-p {
+  display: block;
+}
+.footer-subscribe-form{
+  display: flex;
+}
 
-
-
-
-
+.subscriber-icon-main{
+  margin-top: initial;
+  margin-left: 24px;
+}
 
 
 
