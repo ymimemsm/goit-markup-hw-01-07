@@ -355,6 +355,15 @@ img{
   
  
 }
+.mobile-nav-item-c{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;    
+  letter-spacing: 0.02em;
+  text-transform: capitalize;   
+  color: var(--second-main-color);
+}
 .mobile-nav-link:not(:last-child){
   margin-bottom: 40px;
 }
@@ -364,7 +373,7 @@ img{
   
 }
 .mobile-nav-item:is(:hover, :focus){
-  color: #404BBF;
+  color: var(--second-main-color);
 }
 .mobile-contacts{
 
@@ -373,7 +382,7 @@ img{
   
   font-style: normal;
   font-weight: 600;
-  font-size: 30px;
+  font-size: 24px;
   line-height:1.11;
   text-transform: capitalize;   
   color: #4D5AE5;
