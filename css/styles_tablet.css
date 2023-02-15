@@ -204,7 +204,9 @@
   margin-left: 24px;
 }
 
-
+.modal{
+  min-width: 408px;
+}
 
 
 
